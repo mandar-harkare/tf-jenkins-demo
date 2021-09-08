@@ -3,7 +3,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "demo-vpc-3"
-    Purpose = "Jenkins Demo 3"
+    Name = "demo-vpc-2"
+    Purpose = "Jenkins Demo again"
   }
 }
